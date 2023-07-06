@@ -124,7 +124,7 @@ label{
     main{
         flex-direction: column-reverse;
         gap: 20px;
-        height: auto;
+        height: 120vh;
     }
 
     .card{
