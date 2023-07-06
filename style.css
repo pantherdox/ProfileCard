@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Poppins:wght@400;500;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main{
+    padding: 20px;
+    width: 100%;
+    height: 100vh;
+    background: #181818;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+.card{
+    width: 500px;
+    background: #ffffff;
+    padding: 40px;
+    border-radius: 15px;
+}
+
+#profilePic{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.head{
+    text-align: center;
+    padding: 0 20px 10px;
+    font-family: 'Great Vibes', cursive;
+    font-size: 1.6rem;
+}
+
+.info{
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Poppins', sans-serif;
+}
+
+.info-left{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+}
+
+.more-info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-block: 30px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.m-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+}
+
+.get-info{
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    background: #ffffff;
+    padding: 40px;
+    border-radius: 12px;
+    font-family: 'Poppins', sans-serif;
+}
+
+input{
+    border: none;
+    margin-bottom: 8px;
+    outline: none;
+    background: transparent;
+    padding: 10px;
+}
+
+button{
+    width: 60%;
+    border: none;
+    outline: none;
+    padding: 16px 50px;
+    background: linear-gradient(135deg,rgb(26, 182, 255), rgb(76, 26, 255));
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 40px;
+}
+
+label{
+    padding: 16px 50px;
+    background: linear-gradient(135deg,rgb(26, 182, 255), rgb(76, 26, 255));
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 40px;
+    text-align: center;
+}
+
+.none{
+    display: none;
+}
+
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #edeef0;
+    border-radius: 30px;
+    padding-left: 20px;
+    margin-bottom: 25px;
+}
+
+@media screen and (max-width: 479px){
+    main{
+        flex-direction: column-reverse;
+        gap: 20px;
+        height: auto;
+    }
+
+    .card{
+        width: 400px;
+        padding: 30px;
+    }
+
+    .get-info{
+        width: 400px;
+        padding: 20px;
+    }
+
+    .row{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background: #edeef0;
+        border-radius: 30px;
+        padding-left: 0px;
+        margin-bottom: 15px;
+    }
+    
+}

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Picker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <main>
+        <div class="get-info">
+            <div class="row">
+                <input type="text" placeholder="Enter Your Name" id="name-text">
+                <button onclick="addName()">Add Name</button> <br>
+            </div>
+            <div class="row">
+                <input type="text" placeholder="Enter username" id="user-text">
+                <button onclick="addUser()">Add Username</button> <br>
+            </div>
+            <div class="row">
+                <input type="text" placeholder="Enter Bio" id="bio-text">
+                <button onclick="addBio()">Add Bio</button> <br>
+            </div>
+            <label for="img-input">Upload Profile Picture</label>
+            <input class="none" type="file" accept="image/jpeg, image/png, image/jpg" id="img-input">
+        </div>
+        <div class="card">
+            <div class="head">
+                <h1>Instagram</h1>
+            </div>
+            <div class="info">
+                <div class="info-left">
+                    <h2 id="myName">Your Name</h2>
+                    <h3 id="myUser">@username</h3>
+                    <h3 id="myBio">bio</h3>
+                </div>
+                <div class="info-right">
+                    <img id="profilePic"
+                        src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png"
+                        alt="profilePic">
+                </div>
+            </div>
+            <div class="more-info">
+                <div class="m-info">
+                    <h3>Posts</h3>
+                    <h2>7</h2>
+                </div>
+                <div class="m-info">
+                    <h3>Followers</h3>
+                    <h2>420</h2>
+                </div>
+                <div class="m-info">
+                    <h3>following</h3>
+                    <h2>240</h2>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
