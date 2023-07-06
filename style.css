@@ -4,6 +4,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
 }
 
 body{
@@ -128,7 +129,7 @@ label{
     main{
         flex-direction: column-reverse;
         gap: 20px;
-        height: 120vh;
+        height: auto;
     }
 
     .card{
